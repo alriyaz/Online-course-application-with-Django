@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     {% load static %}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title> Exam Results: {{course.name}}</title>
 </head>
 <body>
 
@@ -15,7 +16,7 @@
         <ul class="nav navbar-nav navbar-right">
             {% if user.is_authenticated %}
             <li>
-                <a class="btn btn-link" href="#">{{ user.first_name }}({{ user.username }})</a>
+                <a class="btn btn-link" href="#">{{ user.first_name }} ({{ user.username }})</a>
                 <a class="btn btn-link" href="{% url 'onlinecourse:logout' %}">Logout</a>
             </li>
             {% else %}
