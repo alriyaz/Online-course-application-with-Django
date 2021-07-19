@@ -1,7 +1,7 @@
 
 ** Online course application built with Django **
 
-- This is a project for IBM cloud Full Stack Cloud Developer Certification
+- This is a project for IBM Full Stack Cloud Native Application Development Certification
 - Application is fully configured to deploy on IBM cloud
 - Database Engine - SQLite3
 
